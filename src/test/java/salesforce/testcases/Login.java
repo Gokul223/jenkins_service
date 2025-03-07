@@ -18,7 +18,8 @@ public class Login {
 		driver.findElement(By.id("username")).sendKeys(uname);
 		driver.findElement(By.id("password")).sendKeys("Leaf$123");
 		driver.findElement(By.id("Login")).click();
-		driver.quit();
+		driver.quit(); 
+		
 	}
 	
 }
