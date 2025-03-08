@@ -14,8 +14,8 @@ public class Login {
 		driver.get("https://login.salesforce.com");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		String uname= "gokul.sekar@testleaf.com";
-		driver.findElement(By.id("username")).sendKeys(uname);
+		String name= "gokul.sekar@testleaf.com";
+		driver.findElement(By.id("username")).sendKeys(name);
 		driver.findElement(By.id("password")).sendKeys("Leaf$123");
 		driver.findElement(By.id("Login")).click();
 		driver.quit(); 
